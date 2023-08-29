@@ -1,0 +1,25 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Comic sans ms';
+}
+
+body {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   background-color: lightseagreen;
+}
+
+.container {
+   font-size: 2rem;
+   color: #fff;
+}
+
+@media (max-width: 728px) {
+   .container {
+      font-size: 0.6rem;
+      color: #fff;
+   }
+}
